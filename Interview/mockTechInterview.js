@@ -14,10 +14,11 @@ Quick Introduction
         - https negotitation step, detail handcheck 
         - CORS 
         - this keyword 
-        - closure 
+        - closureb 
         - how prototype in javascript works?
         
 
+==========================================
 
 
 */
