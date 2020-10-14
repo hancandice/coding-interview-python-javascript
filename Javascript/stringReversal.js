@@ -1,8 +1,8 @@
-// how to reverse a given string
+// How to reverse a given string
 
 const reverseString = (str) => {
   const arr = str.split("");
-  arr.reverse();
+  arr.reverse(); // reverse js method
   str = arr.join("");
   console.log(str);
 };
@@ -18,3 +18,5 @@ reverseString("jeeyoung's coding skill");
     reversed_value: reversed,
   });
 })("Hello!");
+
+// Done

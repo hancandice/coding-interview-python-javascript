@@ -32,3 +32,5 @@ const zeroMatrix = (matrix, n) => {
 };
 
 console.log(zeroMatrix(_matrix, 3));
+
+// Done

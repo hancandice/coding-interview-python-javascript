@@ -1,7 +1,7 @@
 // find the character that appears the most and total number of times it appears
 
-// 1. generate key - value pair
-// 2. create an object, if the character of str does not exist in obj, then sets its value to 1, it it does, do an increment
+// 1. Generate <<key - value>> pair
+// 2. Create an object, if the character of str does not exist in obj, then sets its value to 1, it it does, do an increment
 
 const maxCharacter = (str) => {
   let obj = {};
@@ -28,3 +28,5 @@ maxCharacter("jeeyoung");
 
 // e appears 2 times
 //   appears 9 times
+
+// Done

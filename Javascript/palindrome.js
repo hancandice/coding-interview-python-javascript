@@ -1,6 +1,6 @@
 /* 
-1. reverse the string 
-2. check with original if they are same
+1. Reverse the string 
+2. Check with original if they are the same
 */
 
 const Palindrome = (str) => {
@@ -17,3 +17,5 @@ Palindrome("jeeyoung");
   }
   console.log(str === reversed);
 })("hannah");
+
+// Done

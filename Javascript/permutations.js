@@ -1,11 +1,9 @@
 /*
-
-1. check if they are the same exact strings 
-2. check the lengths of both strings 
-3. create objects of each one
-4. check if the objects character count are equals
-5. return true
-
+1. Check if they are the same exact strings 
+2. Check the lengths of both strings 
+3. Create objects of each one
+4. Check if the objects character count are equals
+5. Return true
 */
 
 const A = "jeeyoung";
@@ -36,3 +34,5 @@ const isPermutation = (str1, str2) => {
 };
 
 console.log(isPermutation("jeeyoung", "youjeeng"));
+
+// Done

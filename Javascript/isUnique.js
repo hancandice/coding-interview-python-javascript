@@ -10,5 +10,10 @@ const isUnique = (str) => {
 };
 
 console.log({
-  isUnique: isUnique("hugo"),
+  isUnique: isUnique("jeeyoung"),
 });
+console.log({
+  isUnique: isUnique("jeyoung"),
+});
+
+// done

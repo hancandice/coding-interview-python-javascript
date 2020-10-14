@@ -1,4 +1,4 @@
-// implement a method to perform a basic string compression using the counts of repeated characters.
+// Implement a method to perform a basic string compression using the counts of repeated characters.
 
 const stringCompression = (str) => {
   const n = str.length;
@@ -18,8 +18,10 @@ const stringCompression = (str) => {
   else return output;
 };
 
-const word = "Jeyoung";
+const word = "Jeeyoung";
 
 console.log({
   word: stringCompression(word),
 });
+
+// Done

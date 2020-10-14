@@ -16,7 +16,7 @@ const palindromePermutation = (str) => {
   console.log(obj);
   console.log(str.length);
   if (str.length % 2 === 1) {
-    // return FALSE if more than one odd number character
+    // ODD: return FALSE if more than one odd number character
     let counter = 0;
     for (let i in obj) {
       if (obj[i] % 2 === 1 || obj[i] === 1) {
@@ -25,7 +25,7 @@ const palindromePermutation = (str) => {
       if (counter > 1) return false;
     }
   } else {
-    // even
+    // EVEN: return FALSE if not all even number character
     for (let i in obj) {
       if (obj[i] % 2 !== 0) return false;
     }
@@ -34,3 +34,7 @@ const palindromePermutation = (str) => {
 };
 
 console.log(palindromePermutation("TTODDO"));
+
+console.log(palindromePermutation("Jeey oun  g"));
+
+// Done

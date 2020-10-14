@@ -30,3 +30,5 @@ const chunk = ((arr, n) => {
 })([1, 4, 12, 3, 2, 6, -9, 0], 3);
 
 console.log(chunk);
+
+// done

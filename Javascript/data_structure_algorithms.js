@@ -26,3 +26,5 @@ const isPalindrome = (str) => {
 };
 
 isPalindrome("racecar");
+
+// done
